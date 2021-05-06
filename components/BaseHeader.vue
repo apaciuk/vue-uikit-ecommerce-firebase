@@ -2,14 +2,14 @@
 <header id="site-head">
 			<div class="uk-container uk-container-expand">
 				<div class="uk-grid uk-grid-medium uk-flex uk-flex-middle" data-uk-grid>
-					<div class="uk-width-auto">
-						<a href="#" class="uk-logo" title="eCommerce"><img src="logo.svg" width="120" alt="Logo"></a>
+					<div class="uk-width-auto" id="logo">
+						<a href="#" class="uk-logo" title="eCommerce"><img src="denzilla.png" width="150" alt="Logo"></a>
 					</div>
 					<div class="uk-width-expand">
 						<form id="search-form" action="">
 							<div class="uk-inline uk-width-1-1">
 								<span class="uk-form-icon uk-form-icon-flip" data-uk-icon="icon: search"></span>
-								<input class="uk-input uk-width-1-1 search-fld" type="text" placeholder="Type your search" autofocus>
+								<input class="uk-input uk-width-1-1 search-fld" type="text" placeholder="Type and hit enter" autofocus>
 								<a hidden href="#" class="search-filter" data-uk-filter-control="[data-tags*='']">Search</a>
 								<a hidden href="#" class="search-filter-all" data-uk-filter-control>Search all</a>
 								<a hidden href="#" class="search-filter-none" data-uk-filter-control="[data-empty='']">Filter none</a>
@@ -18,32 +18,32 @@
 					</div>
 					<div class="uk-width-auto">
 						<ul class="uk-subnav" data-uk-margin>
-							<li class="uk-visible@s"><NuxtLink to="/">Home</NuxtLink></li>
+		            <li class="uk-visible@s"><NuxtLink to="/">Home</NuxtLink></li>
 							<li class="uk-visible@s"><NuxtLink to="/contact">Contact</NuxtLink></li>
 							<li class="uk-visible@s">
 								<a href="#" data-uk-icon="icon:heart"></a>
 								<div class="drop-nav drop-comments uk-dropdown" data-uk-dropdown="mode: click; offset: 20;animation: uk-animation-slide-bottom-small; duration: 150">
 									<ul class="uk-child-width-expand" data-uk-tab="animation: uk-animation-fade">
-										<li><a href="#">Your Messages</a></li>
+										<li><a href="#">Wishlist</a></li>
 								
 									</ul>
 									<ul class="uk-switcher uk-margin">
 										<li class="uk-height-small uk-overflow-auto">
 											<div class="message">
 												Excepteur sint occaecat cupidatat non
-												proident, sunt in culpa qui officia deserunt mollit anim id est laborum...<a href="" class="uk-link">VIEW MESSAGE</a>
+												proident, sunt in culpa qui officia deserunt mollit anim id est laborum...<a href="" class="uk-link">VIEW ITEM</a>
 											</div>
 											<div class="message">
 												Excepteur sint occaecat cupidatat non
-												proident, sunt in culpa qui officia deserunt mollit anim id est laborum...<a href="" class="uk-link">VIEW MESSAGE</a>
+												proident, sunt in culpa qui officia deserunt mollit anim id est laborum...<a href="" class="uk-link">VIEW ITEM</a>
 											</div>
 											<div class="message">
 												Excepteur sint occaecat cupidatat non
-												proident, sunt in culpa qui officia deserunt mollit anim id est laborum...<a href="" class="uk-link">VIEW MESSAGE</a>
+												proident, sunt in culpa qui officia deserunt mollit anim id est laborum...<a href="" class="uk-link">VIEW ITEM</a>
 											</div>
 											<div class="message">
 												Excepteur sint occaecat cupidatat non
-												proident, sunt in culpa qui officia deserunt mollit anim id est laborum...<a href="" class="uk-link">VIEW MESSAGE</a>
+												proident, sunt in culpa qui officia deserunt mollit anim id est laborum...<a href="" class="uk-link">VIEW ITEM</a>
 											</div>
 										</li>
 									</ul>
@@ -79,3 +79,11 @@
 export default {
 }
 </script>
+<style scoped>
+#site-head {
+background-color: #f5f5f5;
+}
+#logo {
+padding-bottom: 6px;
+}
+</style>
