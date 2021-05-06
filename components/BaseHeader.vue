@@ -1,32 +1,49 @@
 <template>
 <header id="site-head">
 			<div class="uk-container uk-container-expand">
-				<div class="uk-grid uk-grid-medium uk-flex uk-flex-middle" data-uk-grid>
+				<div class="uk-grid uk-grid-medium uk-flex uk-flex-middle uk-flex-between" data-uk-grid>
 					<div class="uk-width-auto" id="logo">
-						<a href="#" class="uk-logo" title="eCommerce"><img src="denzilla.png" width="140" alt="Logo"></a>
+						<a href="#" class="uk-logo" title="eCommerce"><img src="logo.png" alt="Logo"></a>
 					</div>
-					<div class="uk-width-expand">
-						<form id="search-form" action="">
-							<div class="uk-inline uk-width-1-1">
-								<span class="uk-form-icon uk-form-icon-flip" data-uk-icon="icon: search"></span>
-								<input class="uk-input uk-width-1-1 search-fld" type="text" placeholder="Type and hit enter" autofocus>
-								<a hidden href="#" class="search-filter" data-uk-filter-control="[data-tags*='']">Search</a>
-								<a hidden href="#" class="search-filter-all" data-uk-filter-control>Search all</a>
-								<a hidden href="#" class="search-filter-none" data-uk-filter-control="[data-empty='']">Filter none</a>
-							</div>
-						</form>
-					</div>
-					<div class="uk-width-auto">
-						<ul class="uk-subnav" data-uk-margin>
-		            <li class="uk-visible@s"><NuxtLink to="/">Home</NuxtLink></li>
+				    <div class="uk-width-auto">
+					    <ul class="uk-subnav" data-uk-margin>
+						  <li class="uk-visible@s"><NuxtLink to="/">Home</NuxtLink></li>
+						  	  <li class="uk-visible@s"><NuxtLink to="/">About</NuxtLink></li>
+							<li class="uk-visible@s"><NuxtLink to="/contact">Collections</NuxtLink></li>
+								  <li class="uk-visible@s"><NuxtLink to="/">Categories</NuxtLink></li>
+							<li class="uk-visible@s"><NuxtLink to="/contact">Best Sellers</NuxtLink></li>
+									  <li class="uk-visible@s"><NuxtLink to="/">Instagram</NuxtLink></li>
+							<li class="uk-visible@s"><NuxtLink to="/contact">Trending</NuxtLink></li>
+								  <li class="uk-visible@s"><NuxtLink to="/">Sale</NuxtLink></li>
+							<li class="uk-visible@s"><NuxtLink to="/contact">New</NuxtLink></li>
+								<li class="uk-visible@s"><NuxtLink to="/contact">Journal</NuxtLink></li>
 							<li class="uk-visible@s"><NuxtLink to="/contact">Contact</NuxtLink></li>
+				
+							
+		       
+								<li class="uk-visible@s">
+								<a href="#" data-uk-icon="icon:cart"></a>
+								<div class="drop-nav uk-dropdown" data-uk-dropdown="mode: click; offset: 20;animation: uk-animation-slide-bottom-small; duration: 150">
+									<h4 class="uk-margin-small-bottom uk-margin-remove-adjacent">Cart</h4>
+								    <hr>
+<ul class="uk-nav-default uk-nav-parent-icon" data-uk-nav>
+									
+										
+										<li><img src="purse.jpg" width="60" /><span class="uk-margin-small-left"></span>Mens Purse £240<span class="uk-margin-small-left" data-uk-icon="icon: trash"></span><span class="uk-margin-small-left" data-uk-icon="icon: pencil"></span></li>
+									</ul>
+                                    <hr>
+									<a href="#" class="uk-button uk-button-secondary uk-width-1-1">CHECKOUT</a>
+									<hr>
+									
+								</div>
+							</li>
 							<li class="uk-visible@s">
 								<a href="#" data-uk-icon="icon:heart"></a>
 								<div class="drop-nav uk-dropdown" data-uk-dropdown="mode: click; offset: 20;animation: uk-animation-slide-bottom-small; duration: 150">
 									<h4 class="uk-margin-small-bottom uk-margin-remove-adjacent">Wishlist</h4>
 									<hr>
 <ul class="uk-nav-default uk-nav-parent-icon" data-uk-nav>
-									<li class="uk-nav-header">My Wishlist</li>
+								
 									<li><img src="purse.jpg" width="60" /><span class="uk-margin-small-left"></span>Mens Purse £240<span class="uk-margin-small-left" data-uk-icon="icon: trash"></span><span class="uk-margin-small-left" data-uk-icon="icon: pencil"></span></li>
 									</ul>
                                     <hr>
@@ -35,18 +52,19 @@
 									
 								</div>
 							</li>
-							<li class="uk-visible@s">
-								<a href="#" data-uk-icon="icon:cart"></a>
+						
+									<li class="uk-visible@s">
+								<a href="#" data-uk-icon="icon:user"></a>
 								<div class="drop-nav uk-dropdown" data-uk-dropdown="mode: click; offset: 20;animation: uk-animation-slide-bottom-small; duration: 150">
-									<h4 class="uk-margin-small-bottom uk-margin-remove-adjacent">Cart</h4>
+									<h4 class="uk-margin-small-bottom uk-margin-remove-adjacent">Account</h4>
 								    <hr>
-<ul class="uk-nav-default uk-nav-parent-icon" data-uk-nav>
-										<li class="uk-nav-header">Items</li>
-										
-										<li><img src="purse.jpg" width="60" /><span class="uk-margin-small-left"></span>Mens Purse £240<span class="uk-margin-small-left" data-uk-icon="icon: trash"></span><span class="uk-margin-small-left" data-uk-icon="icon: pencil"></span></li>
+<ul class="uk-list uk-list-space">
+									 <li><span class="uk-margin-small-right" data-uk-icon="icon: user"></span>User Profile</li>
+									  <li><span class="uk-margin-small-right" data-uk-icon="icon: cog"></span>Account</li>
+									   <li><span class="uk-margin-small-right" data-uk-icon="icon: mail"></span>Messsages</li>
+									    <li><span class="uk-margin-small-right" data-uk-icon="icon: sign-out"></span>Logout</li>
 									</ul>
-                                    <hr>
-									<a href="#" class="uk-button uk-button-secondary uk-width-1-1">CHECKOUT</a>
+                               
 									<hr>
 									
 								</div>
@@ -65,9 +83,14 @@ export default {
 </script>
 <style scoped>
 #site-head {
-background-color: #f5f5f5;
+padding-right: 50px;
+padding-left: 30px;
 }
 #logo {
 padding-bottom: 6px;
+}
+h4.uk-margin-small-bottom {
+text-transform: uppercase;
+font-size: 1em;
 }
 </style>

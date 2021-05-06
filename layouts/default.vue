@@ -2,13 +2,16 @@
 <body data-uk-filter="target: .js-filter; animation: fade">
   <div>
   <BaseHeader />
-  <OffCanvas />
-   <div class="spacer"></div>
   <Nuxt />
+ <OffCanvas />
   <BaseFooter />
   </div>
 </body>
 </template>
+<script>
+export default {
 
-<style>
-</style>
+}
+
+</script>
+

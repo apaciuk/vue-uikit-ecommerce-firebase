@@ -94,10 +94,7 @@
 	opacity: 0.7;
 }
 img[data-src][src*='data:image'] { background: rgba(0,0,0,0.1); }
-.search-fld {
-	border-radius: 50px;
-	padding: 0 1rem;
-}
+
 .uk-dropdown.drop-nav {
 	border-radius: 4px;
 	box-shadow: 0 2px 24px rgba(0,0,0,.1);
@@ -148,12 +145,7 @@ img[data-src][src*='data:image'] { background: rgba(0,0,0,0.1); }
 	border-width: 6px;
 	margin-top: -6px;
 }
-.message {
-	font-size: 0.85rem;
-	display: block;
-	line-height: 1.3rem;
-	padding: 0.5rem 0;
-}
+
 .uk-notification-message {
 	background-color: #1e87f0;
 	color:  white;
@@ -161,3 +153,4 @@ img[data-src][src*='data:image'] { background: rgba(0,0,0,0.1); }
 	border-radius: 3px;
 	box-shadow: 0 4px 14px rgba(0,0,0,0.1);
 }
+

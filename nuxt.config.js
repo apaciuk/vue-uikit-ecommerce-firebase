@@ -19,7 +19,7 @@ export default {
     // Main UIkit file
     '@/node_modules/uikit/dist/css/uikit.min.css',
     //Custom UIkit
-    '@assets/cards.css'
+    '@assets/custom.css'
   ],
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
