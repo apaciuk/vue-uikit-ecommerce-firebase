@@ -3,7 +3,7 @@
 			<div class="uk-container uk-container-expand">
 				<div class="uk-grid uk-grid-medium uk-flex uk-flex-middle" data-uk-grid>
 					<div class="uk-width-auto">
-						<a href="#" class="uk-logo" title="Portfolio"><img src="denzilla.png" width="160" alt="Logo"></a>
+						<a href="#" class="uk-logo" title="eCommerce"><img src="logo.svg" width="130" alt="Logo"></a>
 					</div>
 					<div class="uk-width-expand">
 						<form id="search-form" action="">
@@ -21,7 +21,7 @@
 							<li class="uk-visible@s"><NuxtLink to="/">Home</NuxtLink></li>
 							<li class="uk-visible@s"><NuxtLink to="/contact">Contact</NuxtLink></li>
 							<li class="uk-visible@s">
-								<a href="#" data-uk-icon="icon:comments"></a>
+								<a href="#" data-uk-icon="icon:heart"></a>
 								<div class="drop-nav drop-comments uk-dropdown" data-uk-dropdown="mode: click; offset: 20;animation: uk-animation-slide-bottom-small; duration: 150">
 									<ul class="uk-child-width-expand" data-uk-tab="animation: uk-animation-fade">
 										<li><a href="#">Your Messages</a></li>
@@ -51,13 +51,13 @@
 								</div>
 							</li>
 							<li class="uk-visible@s">
-								<a href="#" data-uk-icon="icon:more"></a>
+								<a href="#" data-uk-icon="icon:cart"></a>
 								<div class="drop-nav uk-dropdown" data-uk-dropdown="mode: click; offset: 20;animation: uk-animation-slide-bottom-small; duration: 150">
 									<h4 class="uk-margin-small-bottom uk-margin-remove-adjacent">Cart.</h4>
 									<p class="uk-text-small uk-text-muted">Cart Contents.</p>
 									<hr>
 <ul class="uk-nav-default uk-nav-parent-icon" data-uk-nav>
-										<li class="uk-nav-header">Header</li>
+										<li class="uk-nav-header">Cart Contents</li>
 										<li><a href="#"><span class="uk-margin-small-right" data-uk-icon="icon: table"></span> Item</a></li>
 										<li><a href="#"><span class="uk-margin-small-right" data-uk-icon="icon: thumbnails"></span> Item</a></li>
 									    <li><a href="#"><span class="uk-margin-small-right" data-uk-icon="icon: trash"></span> Item</a></li>
@@ -68,7 +68,7 @@
 									
 								</div>
 							</li>
-							<li class="uk-hidden@s"><a data-uk-navbar-toggle-icon data-uk-toggle href="#offcanvas-nav"></a></li>
+						<li class="uk-hidden@s"><a data-uk-navbar-toggle-icon data-uk-toggle href="#offcanvas-nav"></a></li>
 						</ul>
 					</div>
 				</div>

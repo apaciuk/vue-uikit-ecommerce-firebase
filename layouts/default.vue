@@ -2,6 +2,7 @@
 <body data-uk-filter="target: .js-filter; animation: fade">
   <div>
   <BaseHeader />
+  <OffCanvas />
    <div class="spacer"></div>
   <Nuxt />
   <BaseFooter />
