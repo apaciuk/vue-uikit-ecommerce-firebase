@@ -3,7 +3,7 @@
 			<div class="uk-container uk-container-expand">
 				<div class="uk-grid uk-grid-medium uk-flex uk-flex-middle" data-uk-grid>
 					<div class="uk-width-auto">
-						<a href="#" class="uk-logo" title="eCommerce"><img src="logo.svg" width="130" alt="Logo"></a>
+						<a href="#" class="uk-logo" title="eCommerce"><img src="logo.svg" width="120" alt="Logo"></a>
 					</div>
 					<div class="uk-width-expand">
 						<form id="search-form" action="">
@@ -25,7 +25,7 @@
 								<div class="drop-nav drop-comments uk-dropdown" data-uk-dropdown="mode: click; offset: 20;animation: uk-animation-slide-bottom-small; duration: 150">
 									<ul class="uk-child-width-expand" data-uk-tab="animation: uk-animation-fade">
 										<li><a href="#">Your Messages</a></li>
-										<li><a href="#">Activity</a></li>
+								
 									</ul>
 									<ul class="uk-switcher uk-margin">
 										<li class="uk-height-small uk-overflow-auto">
@@ -46,7 +46,6 @@
 												proident, sunt in culpa qui officia deserunt mollit anim id est laborum...<a href="" class="uk-link">VIEW MESSAGE</a>
 											</div>
 										</li>
-										<li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
 									</ul>
 								</div>
 							</li>
