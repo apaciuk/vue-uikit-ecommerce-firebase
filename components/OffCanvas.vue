@@ -12,7 +12,7 @@
 				</ul>
 				<h3>Information</h3>
 				<p>eCommerce using UIKit 3, Nuxt Js and Vue JS, with Off Canvas and other UIKit components which can be utilized.</p>
-				<a href="#" id="login" class="uk-button uk-button-primary uk-border-rounded uk-align-center">Login</a>
+				<NuxtLink to="/login" id="login" class="uk-button uk-button-primary uk-border-rounded uk-align-center">Login</NuxtLink>
 			</div>
 		</div>
 		<!-- /OFFCANVAS -->
