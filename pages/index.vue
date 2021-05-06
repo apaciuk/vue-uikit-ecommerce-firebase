@@ -1,11 +1,9 @@
 <template>
- <div class="uk-container">
-    <VueSlickCarousel v-bind="slickOptions">
+<VueSlickCarousel v-bind="slickOptions">
       <div v-for="i in 5" :key="i" class="img-wrapper">
         <img :src="`./${i}-slider.jpg`" />
       </div>
-    </VueSlickCarousel>
-  </div>
+</VueSlickCarousel>
 </template>
 <script>
 export default {
