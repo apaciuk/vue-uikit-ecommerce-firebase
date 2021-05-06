@@ -24,7 +24,7 @@
 								<li class="uk-visible@s">
 								<a href="#" data-uk-icon="icon:cart"></a>
 								<div class="drop-nav uk-dropdown" data-uk-dropdown="mode: click; offset: 20;animation: uk-animation-slide-bottom-small; duration: 150">
-									<h4 class="uk-margin-small-bottom uk-margin-remove-adjacent">Cart</h4>
+									<h4 class="uk-margin-small-bottom uk-margin-remove-adjacent">Shopping Cart</h4>
 								    <hr>
 <ul class="uk-nav-default uk-nav-parent-icon" data-uk-nav>
 									
@@ -92,5 +92,8 @@ padding-bottom: 6px;
 h4.uk-margin-small-bottom {
 text-transform: uppercase;
 font-size: 1em;
+}
+li.uk-visible@s a {
+padding-right: 20px;
 }
 </style>

@@ -17,14 +17,17 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     // Main UIkit file
-    '@/node_modules/uikit/dist/css/uikit.min.css',
+    'uikit/dist/css/uikit.min.css',
     //Custom UIkit
-    '@assets/custom.css'
+    '@assets/custom.css',
+    // Slick Carousel
+    'vue-slick-carousel/dist/vue-slick-carousel.css'
   ],
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: '~/plugins/uikit', ssr: false },
-    { src: '~/plugins/cards', ssr: false }
+    { src: '~/plugins/cards', ssr: false },
+    { src: '~/plugins/vue-slick-carousel' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

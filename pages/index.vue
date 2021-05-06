@@ -1,51 +1,34 @@
 <template>
-  <div class="uk-container">
-  <h2>Index</h2>
-   
+ <div class="uk-container">
+    <VueSlickCarousel v-bind="slickOptions">
+      <div v-for="i in 5" :key="i" class="img-wrapper">
+        <img :src="`./${i}-slider.jpg`" />
+      </div>
+    </VueSlickCarousel>
   </div>
 </template>
-
 <script>
-export default {}
+export default {
+data() {
+    return {
+      slickOptions: {
+        slidesToShow: 3,
+        arrows: false
+      }
+    }
+  }
+}
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+.img-wrapper img {
+  margin: auto;
+  width: 924px;
+  height: 470px;
+  background-image: linear-gradient(gray 100%, transparent 0);
 }
 </style>
+   
+
+
+
