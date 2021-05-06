@@ -1,10 +1,10 @@
 <template>
-<div class="uk-section uk-section-default" uk-height-viewport="expand: true">
+<div class="uk-section uk-section-default uk-margin-top" uk-height-viewport="expand: true">
 	<div class="uk-container uk-container-large">
 		<div class="uk-grid-large uk-margin" uk-grid>
 			<div class="uk-grid-item-match uk-flex-middle uk-width-expand@m">
 				<div class="uk-panel">
-					<h1 class="uk-heading-hero">Let’s talk</h1>
+					<h1 class="uk-heading-hero">Contact Us</h1>
 					<div class="uk-divider-small"></div>
 					<div class="uk-margin uk-width-xlarge">
 						<p>If you need more information about any of our services, do not hesitate to contact us.</p>

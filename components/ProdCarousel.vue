@@ -1,10 +1,12 @@
 <template>
-<div class="uk-section uk-section-muted uk-margin-top">
+<div class="uk-section uk-section-muted uk-margin-top uk-padding-remove-bottom">
+<div class="uk-container uk-container-xlarge">
 <VueSlickCarousel v-bind="slickOptions">
       <div v-for="i in 5" :key="i" class="img-wrapper">
         <img :src="`./${i}-slider.jpg`" />
       </div>
 </VueSlickCarousel>
+</div>
 </div>
 </template>
 <script>
@@ -19,13 +21,13 @@ data() {
   }
 }
 </script>
-
 <style scoped>
 .img-wrapper img {
+ border: solid 2px red;
   margin: auto;
   width: 924px;
   height: 470px;
-  background-image: linear-gradient(gray 100%, transparent 0);
+  background: #000;
 }
 </style>
    
