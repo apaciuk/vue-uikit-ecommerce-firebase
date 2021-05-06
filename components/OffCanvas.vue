@@ -6,8 +6,6 @@
 				<ul class="uk-nav uk-nav-secondary">
 				   <li class="uk-parent">
 				   <h3>CART</h3>
-					
-					
 					</li>
 					<li class="uk-nav-header">Cart Contents</li>
 					<li><a href="#js-options"><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: table"></span> Item</a></li>
