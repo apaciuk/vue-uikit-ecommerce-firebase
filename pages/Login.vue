@@ -34,7 +34,7 @@
 					</div>
 				</div>
 				<div class="uk-margin-bottom">
-					<button type="submit" class="uk-button uk-button-primary uk-border-pill uk-width-1-1">SEND PASSWORD</button>
+					<button type="submit" class="uk-button uk-button-primary uk-border-rounded uk-width-1-1">SEND PASSWORD</button>
 				</div>
 			</form>
 			<!-- /recover password -->
