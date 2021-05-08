@@ -1,4 +1,4 @@
-# vue-uikit-ecommerce-firebase
+# vue-uikit-ecommerce-strapi
 
 ## Build Setup
 
